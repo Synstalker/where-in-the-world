@@ -4,21 +4,21 @@ export default function Attributions() {
   return (
     <footer className="footer" role="contentinfo">
       <p className="footer__attribution">
-        Challenge by{" "}
+        OM Challenge All skills and assisted by Hack South and the Tech Community{" "}
         <a
           className="footer__attribution--link"
-          href="https://www.frontendmentor.io?ref=challenge"
+          href="https://hacksouth.africa/"
           target="_blank"
           rel="noreferrer"
         >
-          Frontend Mentor
+          Getting it done - Right / Fast - SynStalker, CoPilot and Hakware ArchAngel
         </a>
-        . Coded by{" "}
+        . Ai and Humans created this {" "}
         <a
           className="footer__attribution--link"
-          href="https://github.com/chowjiaming"
+          href="https://hakware.com/"
         >
-          Joseph Chow
+          Getting it done - Right / Fast - SynStalker, CoPilot and Hakware ArchAngel
         </a>
         .
       </p>

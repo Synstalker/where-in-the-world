@@ -1,11 +1,11 @@
 {
-  "short_name": "Where in the World",
-  "name": "Where in the World",
+  "short_name": "When SRE goes Rogue",
+  "name": "When SRE goes Rogue",
   "icons": [
     {
-      "src": "images/earth.svg",
+      "src": "images/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/svg"
+      "type": "image/x-icon"
     },
     {
       "src": "images/earth.svg",

@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <nav className="navbar" role="navigation">
       <h1 className="navbar__title" onClick={handleHomeClick}>
-        Where in the World?
+      When SRE goes Rogue
       </h1>
       {theme.option === "light" ? (
         <div className="container__theme" onClick={handleToggleClick}>

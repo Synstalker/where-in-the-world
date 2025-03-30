@@ -2,12 +2,12 @@
   cursor: pointer;
   text-align: center;
   padding: 0.3em 0;
-  background-color: var(--page-element);
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
   min-width: 8em;
-  box-shadow: 0 0 10px 0 var(--page-element-shadow);
+  box-shadow: 0;
 }
 
 @media (min-width: 90rem) {

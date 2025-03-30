@@ -13,11 +13,13 @@ export default function Country(props) {
       title={country.name.common}
       onClick={handleCountryClick}
     >
+      <div className="country__flag__con">
       <img
         className="country__flag"
         src={country.flags.svg}
         alt={`${country.name.common} Flag`}
       />
+      </div>
       <div className="container__country--facts">
         <h2 className="country__name">{country.name.common}</h2>
         <p className="country__fact">

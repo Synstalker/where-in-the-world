@@ -11,16 +11,16 @@ export default function Border(props) {
   const { handleCountryClick } = useContext(CountriesContext);
 
   return error ? (
-    <div className="button__border">{error}</div>
+    <p className="button__border">{error}</p>
   ) : isLoading ? (
-    <div className="button__border">Loading...</div>
+    <p className="button__border">Loading...</p>
   ) : (
-    <div
+    <p
       className="button__border"
       title={countries[0].name.common}
       onClick={handleCountryClick}
     >
       {countries[0].name.common}
-    </div>
+    </p>
   );
 }
